@@ -21,7 +21,6 @@ function destructivelyRemoveFirstDriver(name) {
 
 
 function removeLastDriver() {
-  drivers.slice(-1);
   let new_array = drivers.slice(-1);
   return new_array;
 }
