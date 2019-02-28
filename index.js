@@ -1,5 +1,3 @@
 // Write your solution here!
 
-function index.js() {
-  
-}
+drivers = (["Milo", "Otis", "Garfield"])
