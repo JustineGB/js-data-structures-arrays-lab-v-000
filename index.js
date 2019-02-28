@@ -24,8 +24,8 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  let new_array = drivers.concat(name);
-  return new_array;
+  let new_array1 = drivers.concat(name);
+  return new_array1;
 }
 
 function removeLastDriver() {
