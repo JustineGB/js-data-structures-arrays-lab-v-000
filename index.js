@@ -21,12 +21,12 @@ function destructivelyRemoveFirstDriver(name) {
 
 
 function removeLastDriver() {
-  let new_array = drivers.slice(-1);
-  return new_array;
+  let last_driver = drivers.slice(-1);
+  return last_driver;
 }
 
 function removeFirstDriver() {
-  let new_array = drivers.slice(1);
-  return new_array;
+  let first_driver = drivers.slice(1);
+  return first_driver;
 }
 
