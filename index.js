@@ -22,7 +22,7 @@ function destructivelyRemoveFirstDriver(name) {
 
 
 function removeLastDriver(name) {
-  drivers.slice(name);
+  drivers.splice(name);
 }
 
 function removeFirstDriver(name) {
