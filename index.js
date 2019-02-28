@@ -23,7 +23,7 @@ function appendDriver(name) {
   return new_array;
 }
 
-function appendDriver(name) {
+function prependDriver(name) {
   let new_array = drivers.concat(name);
   return new_array;
 }
