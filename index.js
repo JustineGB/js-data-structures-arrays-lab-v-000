@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver(name) {
 }
 
 function appendDriver(name) {
-  
+  let new_array = drivers.concat(name);
 }
 
 function removeLastDriver() {
