@@ -23,6 +23,11 @@ function appendDriver(name) {
   return new_array;
 }
 
+function appendDriver(name) {
+  let new_array = drivers.concat(name);
+  return new_array;
+}
+
 function removeLastDriver() {
   let first_two_drivers = drivers.slice(0,2);
   return first_two_drivers;
